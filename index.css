@@ -139,3 +139,58 @@ header {
 .color-circle {
   width: 45%;
 }
+
+footer {
+  background-color: #2E323B;
+  margin-top: 70px;
+  padding: 30px 5%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.footer-category {
+  width: 23%;
+  display: block;
+}
+
+.footer-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 10px 0 30px 0;
+}
+
+.footer-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 20px;
+  display: block;
+  color: #FFFFFF;
+}
+
+.social-icon-row {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.company-icon-row {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-icon {
+  width: 25px;
+  height: 25px;
+  margin-top: 20px;
+}
