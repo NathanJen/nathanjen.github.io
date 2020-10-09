@@ -6,6 +6,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  font-family: 'Montserrat';
 }
 
 .green {
@@ -33,7 +34,6 @@ header {
 }
 
 .logo {
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -50,7 +50,6 @@ header {
 }
 
 .nav-link {
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -66,7 +65,7 @@ header {
 }
 
 .content-container {
-  margin: 50px 5% 0 5%;
+  margin: 70px 5% 0 5%;
 }
 
 /* ######### INDEX ########### */
@@ -80,7 +79,6 @@ header {
 }
 
 .category-name {
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -88,7 +86,6 @@ header {
 }
 
 .category-subname {
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -96,7 +93,6 @@ header {
 }
 
 .category-title {
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -111,4 +107,35 @@ header {
   width: 100%;
   border-radius: 20px;
   margin-bottom: 20px;
+}
+
+.item-card {
+  width: 22%;
+}
+
+.item-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+
+.item-category {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.item-price {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 20px;
+}
+
+.color-circle {
+  width: 45%;
 }
