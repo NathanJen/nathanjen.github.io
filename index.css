@@ -108,8 +108,20 @@ header a {
 
 /* ######### INDEX ########### */
 
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
 .hero-img {
   width: 100%;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
 }
 
 .category-name-container {
@@ -197,6 +209,11 @@ footer {
 .footer-category {
   width: 23%;
   display: block;
+}
+
+.footer-category .row {
+  display: flex;
+  text-decoration: none;
 }
 
 .footer-title {
