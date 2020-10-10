@@ -118,10 +118,17 @@ header a {
   width: 100%;
 }
 
-.bottom-left {
+.hero-txt {
+  /* positioning */
   position: absolute;
-  bottom: 8px;
-  left: 16px;
+  bottom: 70px;
+  left: 5%;
+  /* text styling */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 78px;
+  color: #96D231;
 }
 
 .category-name-container {
@@ -214,6 +221,22 @@ footer {
 .footer-category .row {
   display: flex;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-category .row .footer-link {
+  margin: 0;
+}
+
+.footer-category .row .footer-link:hover {
+  margin: 0;
+}
+
+
+.footer-category a {
+  text-decoration: none;
 }
 
 .footer-title {
@@ -236,6 +259,7 @@ footer {
 
 .footer-link:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .social-icon-row {
@@ -256,9 +280,7 @@ footer {
 }
 
 .footer-icon {
-  width: 25px;
-  height: 25px;
-  margin-top: 20px;
+  margin-right: 20px;
 }
 
 
