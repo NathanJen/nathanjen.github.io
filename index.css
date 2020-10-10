@@ -22,6 +22,36 @@ html, body {
   justify-content: space-between;
 }
 
+.filter-row {
+  margin-bottom: 30px;
+}
+
+.breadcrumb {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.content-container {
+  margin: 70px 5% 0 5%;
+}
+
+.content-breadcrumb-container {
+  margin: 50px 5% 0 5%;
+}
+
+.dropdown {
+  border: 1px solid #96D231;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #96D231;
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
 
 /* ######### HEADER ########### */
 
@@ -62,10 +92,6 @@ header {
 
 .nav-link:hover {
   text-decoration: underline;
-}
-
-.content-container {
-  margin: 70px 5% 0 5%;
 }
 
 /* ######### INDEX ########### */
@@ -143,7 +169,7 @@ header {
 footer {
   background-color: #2E323B;
   margin-top: 70px;
-  padding: 30px 5%;
+  padding: 70px 5% 70px 5%;;
   display: flex;
   text-align: center;
   justify-content: space-between;
@@ -172,6 +198,10 @@ footer {
   color: #FFFFFF;
 }
 
+.footer-link:hover {
+  text-decoration: underline;
+}
+
 .social-icon-row {
   margin: 0 auto;
   width: 90%;
@@ -194,3 +224,6 @@ footer {
   height: 25px;
   margin-top: 20px;
 }
+
+
+/* ######### PRODUCT DETAILS ########### */
