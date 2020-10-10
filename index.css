@@ -22,6 +22,10 @@ html, body {
   justify-content: space-between;
 }
 
+.customers-row {
+  display: flex;
+}
+
 .dropdown-row {
   margin-top: 40px;
   margin-bottom: 30px;
@@ -32,6 +36,7 @@ html, body {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
+  padding-right: 40px;
 }
 
 .content-container {
@@ -64,12 +69,18 @@ header {
   border-bottom: 2px solid #A7A7A7;
 }
 
+/* remove underline for header */
+header a {
+  text-decoration: none;
+}
+
 .logo {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 44px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .nav-links {
@@ -138,6 +149,12 @@ header {
 
 .item-card {
   width: 22%;
+  text-decoration: none;
+}
+
+/* removes padding for last card */
+.item-card:not(:last-child) {
+  padding-right: 40px;
 }
 
 .item-name {
@@ -146,6 +163,7 @@ header {
   font-size: 24px;
   line-height: 29px;
   margin-bottom: 10px;
+  color: black;
 }
 
 .item-category {
@@ -242,7 +260,7 @@ footer {
   width: 60%;
 }
 
-.item-name {
+.item-detail-name {
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -272,9 +290,11 @@ footer {
 }
 
 .size-container {
-  padding: 20px 40px;
+  width: 20%;
+  padding: 20px 10px;
   border: 1px solid #A7A7A7;
   border-radius: 10px;
+  text-align: center;
 }
 
 .size {
@@ -301,6 +321,10 @@ footer {
 .info-container {
   padding: 40px 0;
   border-top: 1px solid #E5E5E5;
+}
+
+/* puts bottom border on last container */
+.info-container:last-child {
   border-bottom: 1px solid #E5E5E5;
 }
 
