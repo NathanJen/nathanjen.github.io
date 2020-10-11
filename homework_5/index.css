@@ -402,6 +402,9 @@ footer {
 
 .fav-card {
   width: 30%;
+}
+
+.fav-card a {
   text-decoration: none;
 }
 
