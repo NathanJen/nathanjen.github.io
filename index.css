@@ -278,6 +278,24 @@ footer {
   margin-top: 20px;
 }
 
+/* text overlay inspiration from https://www.w3schools.com/howto/howto_css_image_text.asp */
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 45px;
+  right: 16px;
+}
+
+.add-to-cart {
+  width: 30px;
+  height: 30px;
+}
+
 .footer-icon {
   margin-right: 20px;
 }
