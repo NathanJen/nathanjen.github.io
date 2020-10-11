@@ -10,7 +10,7 @@ html, body {
 }
 
 .green {
-  color: #96D231;
+  color: #96D231 !important;
 }
 
 .gray {
@@ -373,6 +373,7 @@ footer {
   line-height: 34px;
   border-radius: 30px;
   width: 100%;
+  cursor: pointer;
 }
 
 .info-container {
@@ -474,8 +475,17 @@ form input {
   padding-left: 10px;
 }
 
-input[name="message"] {
+form textarea {
+  border: 2px solid #96D231;
+  border-radius: 15px;
+  width: 96%;
+  margin-bottom: 40px;
   height: 150px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 20px;
+  resize: none;
 }
 
 .form-btn {
@@ -489,4 +499,5 @@ input[name="message"] {
   line-height: 34px;
   border-radius: 30px;
   width: 100%;
+  cursor: pointer;
 }
