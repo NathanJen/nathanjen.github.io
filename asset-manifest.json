@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/muddy-paws/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/muddy-paws/static/js/main.b037e2d9.chunk.js",
+    "main.js.map": "/muddy-paws/static/js/main.b037e2d9.chunk.js.map",
+    "runtime-main.js": "/muddy-paws/static/js/runtime-main.dec569fc.js",
+    "runtime-main.js.map": "/muddy-paws/static/js/runtime-main.dec569fc.js.map",
+    "static/js/2.b1d64d2d.chunk.js": "/muddy-paws/static/js/2.b1d64d2d.chunk.js",
+    "static/js/2.b1d64d2d.chunk.js.map": "/muddy-paws/static/js/2.b1d64d2d.chunk.js.map",
+    "static/js/3.6c086e7d.chunk.js": "/muddy-paws/static/js/3.6c086e7d.chunk.js",
+    "static/js/3.6c086e7d.chunk.js.map": "/muddy-paws/static/js/3.6c086e7d.chunk.js.map",
+    "index.html": "/muddy-paws/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/muddy-paws/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.b1d64d2d.chunk.js.LICENSE.txt": "/muddy-paws/static/js/2.b1d64d2d.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/muddy-paws/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dec569fc.js",
+    "static/js/2.b1d64d2d.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.b037e2d9.chunk.js"
+  ]
+}
